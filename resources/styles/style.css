@@ -1,4 +1,4 @@
-html {
+body {
   margin: 40px;
   background-color: green;
 }
@@ -13,11 +13,11 @@ h1 {
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
 
-  html {
+  body {
     background-image: linear-gradient(c21500, ffc500);
   }
 
   h1 {
-    color: black;
+    color: white;
   }
 }
