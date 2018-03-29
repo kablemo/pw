@@ -1,4 +1,4 @@
-body {
+html {
   margin: 40px;
   background-color: green;
 }
@@ -9,9 +9,10 @@ h1 {
   font-family: Helvetica;
 }
 
-@@media only screen and (max-width: 480px) {
-  body {
-    background: linear-gradient(c21500, ffc500);
+@media only screen and (max-width: 320px) {
+  html {
+    background-color: red;
+    /* background: linear-gradient(c21500, ffc500); */
   }
 
   h1 {
